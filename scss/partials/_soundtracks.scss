@@ -1,0 +1,37 @@
+.container-fluid {
+  color: aliceblue;
+}
+.h2 {
+  font-size: 50px;
+  color: rgba(255, 0, 0, 0.877);
+}
+.card-text {
+  color: black;
+}
+h5 {
+  color: rgba(240, 8, 8, 0.74);
+}
+.figure-caption {
+  color: rgb(28, 212, 4);
+  font-size: 25px;
+}
+.col-auto {
+  background-color: rgba(0, 0, 0, 0.493);
+  color: aliceblue;
+}
+@mixin soundtracks {
+  border-radius: 15px;
+  width: auto;
+}
+.primero {
+  @include soundtracks;
+  margin-top: 10px;
+}
+.segundo {
+  @include soundtracks;
+  margin-top: 15px;
+}
+.tercero {
+  @include soundtracks;
+  margin-top: 20px;
+}

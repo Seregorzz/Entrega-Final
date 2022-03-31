@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$color: #85c88a;
+$tres: #ec0b0baf;
+$imag: #243d251a;
+$nels: rgba(128, 128, 128, 0.185);
+
+@import "./partials/index";
+@import "./partials/navbar";
+@import "./partials/variab";
+@import "./partials/contacto";
+@import "./partials/soundtracks";
+@import "./partials/movies";
